@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Task2</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;      /* full screen */
+}
+
+.img{
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    background-size:cover;
+    background-position:center;
+    position:absolute;
+}
+
+/* top left */
+#img1{
+    background-image:url(chadcat.jpeg);
+    top:20px;
+    left:20px;
+}
+
+/* top right */
+#img2{
+    background-image:url(dogDoubt.jpg);
+    top:20px;
+    right:20px;
+}
+
+/* center */
+#img3{
+    background-image:url(gigachad.jpg);
+    top:50%;
+    left:50%;
+    width: 400px;
+    height: 300px;
+    transform:translate(-50%, -50%);
+}
+
+/* bottom left */
+#img4{
+    background-image:url(funnyFace.jpg);
+    bottom:20px;
+    left:20px;
+}
+
+/* bottom right */
+#img5{
+    background-image:url(ishow.jpeg);
+    bottom:20px;
+    right:20px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <div class="img" id="img1"></div>
+    <div class="img" id="img2"></div>
+    <div class="img" id="img3"></div>
+    <div class="img" id="img4"></div>
+    <div class="img" id="img5"></div>
+</div>
+</body>
+</html>

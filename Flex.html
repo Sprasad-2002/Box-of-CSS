@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+        body
+        {
+            background-color: rgb(245, 241, 241);
+        }
+        *
+        {
+            margin: 0px;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        .container
+        {
+            display: flex;
+          
+            justify-content: center;
+            width: 90%;
+            background-color: white;
+            box-shadow: 0px 0px 20px gray;
+            padding: 20px;
+            margin:40px auto 0px;
+            gap: 20px;
+        }
+        h3{
+            text-align: center;
+        }
+        .img1
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .parent
+        {
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            row-gap: 30px;
+        }
+        .child
+        {
+            width: 200px;
+            
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        button
+        {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfRubNmzDC7iPOFQNpM_d8H2Q6AoxNpSLZyPdMaMODZxWUqXUK3JgbsqKl-O-amyUTFzhOrK4PqfGXSjEk6N9EGa9WxyXTUCC7Lkwzbg90JxDVTuY_cFHoUnHr89ubQ5dKv_-IuJc&usqp=CAc" alt="">
+            <h3>Mobiles</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPnyhfUNlgjuf5KVqA3SfgpD3qdLKaORVwaGjTllVeSblgbEYIqiVH1Ft_QaNEwTb496kwEhS6f1S-gq9GoLxCyeeXdVV5yqPojSoCad8EOfMXCv0fA1m90464ZswjxBn8v_FlEUuwzOU&usqp=CAc" alt="">
+            <h3>Toys</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTP6ARvyVbHEjosvBiO6Q946qV-cBVs1ZhuuVzIFTPk2x3sVvXRpFr1TgjDIZ2NVJ0sdL3OddJjjMOdraDXpCeeYxIoLNDFy8xS-jahm66iDch9h0SVO4nF8HeGD0zSer14j7kEbDCfzp0&usqp=CAc" alt="">
+           <h3>Home & furniture</h3>
+        </div>
+         <div class="items">
+            <img src="https://dellstatic.luroconnect.com/media/catalog/product/l/a/laptop-dell-dc15250nt-sl-metal-usbc-full-function-gallery-2.jpg" alt="">
+           <h3>Laptops</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfRubNmzDC7iPOFQNpM_d8H2Q6AoxNpSLZyPdMaMODZxWUqXUK3JgbsqKl-O-amyUTFzhOrK4PqfGXSjEk6N9EGa9WxyXTUCC7Lkwzbg90JxDVTuY_cFHoUnHr89ubQ5dKv_-IuJc&usqp=CAc" alt="">
+            <h3>Mobiles</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPnyhfUNlgjuf5KVqA3SfgpD3qdLKaORVwaGjTllVeSblgbEYIqiVH1Ft_QaNEwTb496kwEhS6f1S-gq9GoLxCyeeXdVV5yqPojSoCad8EOfMXCv0fA1m90464ZswjxBn8v_FlEUuwzOU&usqp=CAc" alt="">
+            <h3>Toys</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTP6ARvyVbHEjosvBiO6Q946qV-cBVs1ZhuuVzIFTPk2x3sVvXRpFr1TgjDIZ2NVJ0sdL3OddJjjMOdraDXpCeeYxIoLNDFy8xS-jahm66iDch9h0SVO4nF8HeGD0zSer14j7kEbDCfzp0&usqp=CAc" alt="">
+           <h3>Home & furniture</h3>
+        </div>
+         <div class="items">
+            <img src="https://dellstatic.luroconnect.com/media/catalog/product/l/a/laptop-dell-dc15250nt-sl-metal-usbc-full-function-gallery-2.jpg" alt="">
+           <h3>Laptops</h3>
+        </div>
+        
+    </div>
+    <div class="parent">
+         <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <style>
+        body
+        {
+            background-color: rgb(245, 241, 241);
+        }
+        *
+        {
+            margin: 0px;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        .container
+        {
+            display: flex;
+          
+            justify-content: center;
+            width: 90%;
+            background-color: white;
+            box-shadow: 0px 0px 20px gray;
+            padding: 20px;
+            margin:40px auto 0px;
+            gap: 20px;
+        }
+        h3{
+            text-align: center;
+        }
+        .img1
+        {
+            height: 200px;
+            width: 200px;
+        }
+        .parent
+        {
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            row-gap: 30px;
+        }
+        .child
+        {
+            width: 200px;
+            
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        button
+        {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfRubNmzDC7iPOFQNpM_d8H2Q6AoxNpSLZyPdMaMODZxWUqXUK3JgbsqKl-O-amyUTFzhOrK4PqfGXSjEk6N9EGa9WxyXTUCC7Lkwzbg90JxDVTuY_cFHoUnHr89ubQ5dKv_-IuJc&usqp=CAc" alt="">
+            <h3>Mobiles</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPnyhfUNlgjuf5KVqA3SfgpD3qdLKaORVwaGjTllVeSblgbEYIqiVH1Ft_QaNEwTb496kwEhS6f1S-gq9GoLxCyeeXdVV5yqPojSoCad8EOfMXCv0fA1m90464ZswjxBn8v_FlEUuwzOU&usqp=CAc" alt="">
+            <h3>Toys</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTP6ARvyVbHEjosvBiO6Q946qV-cBVs1ZhuuVzIFTPk2x3sVvXRpFr1TgjDIZ2NVJ0sdL3OddJjjMOdraDXpCeeYxIoLNDFy8xS-jahm66iDch9h0SVO4nF8HeGD0zSer14j7kEbDCfzp0&usqp=CAc" alt="">
+           <h3>Home & furniture</h3>
+        </div>
+         <div class="items">
+            <img src="https://dellstatic.luroconnect.com/media/catalog/product/l/a/laptop-dell-dc15250nt-sl-metal-usbc-full-function-gallery-2.jpg" alt="">
+           <h3>Laptops</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfRubNmzDC7iPOFQNpM_d8H2Q6AoxNpSLZyPdMaMODZxWUqXUK3JgbsqKl-O-amyUTFzhOrK4PqfGXSjEk6N9EGa9WxyXTUCC7Lkwzbg90JxDVTuY_cFHoUnHr89ubQ5dKv_-IuJc&usqp=CAc" alt="">
+            <h3>Mobiles</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRPnyhfUNlgjuf5KVqA3SfgpD3qdLKaORVwaGjTllVeSblgbEYIqiVH1Ft_QaNEwTb496kwEhS6f1S-gq9GoLxCyeeXdVV5yqPojSoCad8EOfMXCv0fA1m90464ZswjxBn8v_FlEUuwzOU&usqp=CAc" alt="">
+            <h3>Toys</h3>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTP6ARvyVbHEjosvBiO6Q946qV-cBVs1ZhuuVzIFTPk2x3sVvXRpFr1TgjDIZ2NVJ0sdL3OddJjjMOdraDXpCeeYxIoLNDFy8xS-jahm66iDch9h0SVO4nF8HeGD0zSer14j7kEbDCfzp0&usqp=CAc" alt="">
+           <h3>Home & furniture</h3>
+        </div>
+         <div class="items">
+            <img src="https://dellstatic.luroconnect.com/media/catalog/product/l/a/laptop-dell-dc15250nt-sl-metal-usbc-full-function-gallery-2.jpg" alt="">
+           <h3>Laptops</h3>
+        </div>
+        
+    </div>
+    <div class="parent">
+         <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+          <div class="child">
+            <img class="img1" src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/g/d3921c7662c24908a9dfa2fcfb02e8ca/whatsapp-image-2023-12-28-at-4-28-19-pm-800x800.jpeg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum?</p>
+         <button>Buynow</button>
+        </div>
+    </div>
+</body>
+</html>
